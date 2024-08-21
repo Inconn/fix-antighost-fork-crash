@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "fix-antighost-fork-crash",
+	"version": "${version}",
+	"name": "Fix AntiGhost FORK Crash",
+	"description": "Fixes a crash in the AntiGhost FORK in 1.21+",
+	"authors": [
+		"Inconn"
+	],
+	"contact": {
+		"homepage": "https://foxirl.gay",
+		"sources": "https://github.com/Inconn/fix-antighost-fork-crash"
+	},
+	"license": "GPL-2.0-or-later",
+	"icon": "assets/fix-antighost-fork-crash/icon.png",
+	"environment": "*",
+	"mixins": [
+		"fix-antighost-fork-crash.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"crowdin-translate": "*"
+	}
+}
